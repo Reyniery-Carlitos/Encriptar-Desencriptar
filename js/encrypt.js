@@ -11,11 +11,7 @@ document.getElementById('btn-encrypt').addEventListener('click', () => {
      let content = (document.getElementById('idTextarea').value).trim();
      const encrypt = (content) => {
           for (let letter of content) {
-               if (codeEncrypt[letter]) {
-                    result += codeEncrypt[letter];
-               } else {
-                    result += letter;
-               };
+               result += codeEncrypt[letter] ? codeEncrypt[letter] : letter;
           };
           document.getElementById('sidebar-container__text').textContent = result;
      };
