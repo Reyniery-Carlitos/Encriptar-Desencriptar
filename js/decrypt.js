@@ -3,7 +3,7 @@ const vowels = ['a', 'e', 'i', 'o', 'u'];
 const codeDecrypt = {
      ai: 'a',
      enter: 'e',
-     imet: 'i',
+     imes: 'i',
      ober: 'o',
      ufat: 'u'
 };
