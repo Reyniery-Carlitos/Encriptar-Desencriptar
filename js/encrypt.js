@@ -1,7 +1,7 @@
 const codeEncrypt = {
      a: 'ai',
      e: 'enter',
-     i: 'imet',
+     i: 'imes',
      o: 'ober',
      u: 'ufat'
 };
